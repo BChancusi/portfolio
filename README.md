@@ -2,8 +2,6 @@
 
 ## Email: brandonchancusi@gmail.com
 
-[Link](url) and ![Image](src)
-
 ### Distibuted Budgeting System
 
 [Project Repository](https://github.com/BChancusi/distributed)
