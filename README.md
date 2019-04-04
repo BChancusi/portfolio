@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Brandon Chancusi 
 
-You can use the [editor on GitHub](https://github.com/BChancusi/portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+## Email: brandonchancusi@gmail.com
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Distibuted Budgeting System
 
-### Jekyll Themes
+[Project Repository](https://github.com/BChancusi/distributed)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BChancusi/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Project Production Build](https://hidden-basin-52987.herokuapp.com)
 
-### Support or Contact
+Web application designed to allow multiple users to input financial data concurrently leverging branches and committing.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Developed using React.js, Express.js and MySQL.
+
+![Image of running application](https://i.imgur.com/8qfyiT0.png)
+
+### Contact Me
+[Linkedin](https://www.linkedin.com/in/brandon-chancusi-217559172/)
+
+ Email: brandonchancusi@gmail.com
