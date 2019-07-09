@@ -7,7 +7,7 @@ function Projects() {
             <article>
                 <h4>Distributed Budgeting System</h4>
                 <a href="https://github.com/BChancusi/distributed">Code</a>
-                <a href="https://hidden-basin-52987.herokuapp.com">Website</a>
+                <a href="https://distributed-budgeting.herokuapp.com/">Website</a>
 
                 <p>Web application designed to allow multiple users to input financial data
                     concurrently leveraging branches and committing.
