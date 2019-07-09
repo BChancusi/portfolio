@@ -16,7 +16,7 @@ function App() {
                 <Projects/>
             </section>
             <footer className="App-header">
-                <a href="https://www.linkedin.com/in/brandon-chancusi-217559172/">Linkedin</a>
+                <a href="https://www.linkedin.com/in/brandon-chancusi-217559172/">LinkedIn</a>
                 <a href="https://github.com/BChancusi">Github</a>
                 <p>brandonchancusi@gmail.com</p>
             </footer>
