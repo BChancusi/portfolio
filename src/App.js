@@ -1,28 +1,25 @@
 import React from 'react';
 import './App.css';
-
+import Projects from './Project';
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <section>
-                    <h3>Projects</h3>
-                    <article>
-                        <h4>Distributed Budgeting System</h4>
-                        <a href="https://github.com/BChancusi/distributed">Code</a>
-                        <a href="https://hidden-basin-52987.herokuapp.com">Website</a>
+                <header>
+                    <h1>Brandon Chancusi</h1>
+                    <h2>brandonchancusi@gmail.com</h2>
+                </header>
 
-                        <p>Web application designed to allow multiple users to input financial data
-                            concurrently leveraging branches and committing.
-                        </p>
-
-                        <p>Developed using React.js, Express.js and MySQL.</p>
-
-                        {/*<img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo Image" height="200" width="400">*/}
-                    </article>
-                </section>
             </header>
-
+            <section>
+                <h3>Projects</h3>
+                <Projects/>
+            </section>
+            <footer className="App-header">
+                <a href="https://www.linkedin.com/in/brandon-chancusi-217559172/">Linkedin</a>
+                <a href="https://github.com/BChancusi">Github</a>
+                <p>brandonchancusi@gmail.com</p>
+            </footer>
         </div>
     );
 }
