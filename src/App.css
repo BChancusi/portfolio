@@ -16,3 +16,9 @@
 .App-link {
   color: #61dafb;
 }
+
+.Projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

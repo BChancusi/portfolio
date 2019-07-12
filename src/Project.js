@@ -3,7 +3,7 @@ import './App.css';
 
 function Projects() {
     return (
-        <>
+        <div className="Projects">
             <article>
                 <h4>Distributed Budgeting System</h4>
                 <a href="https://github.com/BChancusi/distributed">Code</a>
@@ -15,7 +15,8 @@ function Projects() {
 
                 <p>Developed using React.js, Express.js and MySQL.</p>
 
-                <img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo Image" height="200" width="400"/>
+                <img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo Image" height="200" width="400"
+                     style={{border: "1px solid black"}}/>
             </article>
             <article>
                 <h4>Social application</h4>
@@ -39,7 +40,7 @@ function Projects() {
                     </li>
                 </ul>
             </article>
-        </>
+        </div>
 
     );
 }
