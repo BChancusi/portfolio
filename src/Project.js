@@ -17,7 +17,7 @@ function Projects() {
 
                     <p>Developed using React.js, Express.js and MySQL.</p>
 
-                    <img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo Image" height="200" width="400"
+                    <img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"
                          style={{border: "1px solid black"}}/>
                 </article>
                 <article>
