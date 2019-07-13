@@ -1,22 +1,11 @@
 .App {
   text-align: center;
-    font-size: 1vw;
 }
-h1 {
-    font-size: 5vw;
-}
-h2{
-    font-size: 2.5vw;
-}
-h3{
-    font-size: 2vw;
-}
-h4{
-    font-size: 1.2vw;
-}
+
 .Projects img{
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
+    border: 1px solid black;
 }
 .App-header {
   background-color: #282c34;
@@ -29,14 +18,115 @@ h4{
   color: white;
 }
 
+.App-links img {
+    width: 6vmin;
+    height: auto;
+}
 .App-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #282c34;
+}
+
+a{
+    padding: 10px;
+
 }
 
 .Projects{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+
+@media (min-width:320px)  {
+    h1 {
+        font-size: 35px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .App{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:641px)  {
+    h1 {
+        font-size: 80px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .App{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1025px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .App{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1281px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .App{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:3000px) {
+    h1 {
+        font-size: 200px;
+    }
+    h2{
+        font-size: 100px;
+    }
+    h3{
+        font-size: 80px;
+    }
+    h4{
+        font-size: 70px;
+    }
+    .App{
+        font-size: 50px;
+    }
 }
