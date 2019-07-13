@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Projects from './Project';
+import Skills from './Skills';
 
 function App() {
     return (
@@ -21,10 +22,9 @@ function App() {
                 </header>
 
             </header>
-            <section>
-                <h3>Projects</h3>
-                <Projects/>
-            </section>
+            <Skills/>
+            <hr/>
+            <Projects/>
         </div>
     );
 }
