@@ -13,8 +13,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .Projects{
