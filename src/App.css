@@ -1,10 +1,10 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.Grey{
+.Grey {
     background-color: lightgray;
-    padding: 65px 0px;
+    padding: 65px 0;
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
@@ -15,36 +15,43 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    box-shadow: 0px 2px 5px 1px darkgrey;
+    box-shadow: 0 2px 5px 1px darkgrey;
 }
-.Btn:hover{
+
+.Btn:hover {
     background-color: #171b23;
 }
-.Project-image{
+
+.Project-image {
     max-width: 50%;
     height: auto;
-    box-shadow: 0px 2px 5px 1px darkgrey;
+    box-shadow: 0 2px 5px 1px darkgrey;
 }
-.Project-logo{
+
+.Project-logo {
     width: 10vmin;
     height: auto;
 }
 
-.Logos{
+.Logos {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 10px;
 }
+
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    z-index: 1030;
+    position: sticky;
+    top: 0;
 }
 
 .App-links img {
@@ -54,20 +61,18 @@
 }
 
 .App-links {
-    top: 0;
     width: 100%;
     background-color: #282c34;
     color: #61dafb;
-
 }
 
-.Projects{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-h1, h2, h3, h4, a, img{
+h1, h2, h3, h4, a, img {
     margin: 5px;
 }
 
@@ -75,97 +80,117 @@ h3, h4, a, img, p {
     color: #282c34;
 }
 
-h4{
+h4 {
     color: #337ab7;
 }
 
 
-@media (min-width:320px)  {
+@media (min-width: 320px) {
     h1 {
         font-size: 35px;
     }
-    h2{
+
+    h2 {
         font-size: 20px;
     }
-    h3{
+
+    h3 {
         font-size: 20px;
     }
-    h4{
+
+    h4 {
         font-size: 20px;
     }
-    .App{
+
+    .App {
         font-size: 15px;
     }
 }
 
-@media (min-width:641px)  {
+@media (min-width: 641px) {
     h1 {
         font-size: 80px;
     }
-    h2{
+
+    h2 {
         font-size: 40px;
     }
-    h3{
+
+    h3 {
         font-size: 30px;
     }
-    h4{
+
+    h4 {
         font-size: 25px;
     }
-    .App{
+
+    .App {
         font-size: 20px;
     }
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
     h1 {
         font-size: 100px;
     }
-    h2{
+
+    h2 {
         font-size: 50px;
     }
-    h3{
+
+    h3 {
         font-size: 30px;
     }
-    h4{
+
+    h4 {
         font-size: 25px;
     }
-    .App{
+
+    .App {
         font-size: 20px;
     }
 }
 
-@media (min-width:1281px) {
+@media (min-width: 1281px) {
     h1 {
         font-size: 100px;
     }
-    h2{
+
+    h2 {
         font-size: 50px;
     }
-    h3{
+
+    h3 {
         font-size: 40px;
     }
-    h4{
+
+    h4 {
         font-size: 30px;
     }
-    .App{
+
+    .App {
         font-size: 20px;
     }
 }
 
-@media (min-width:3000px) {
+@media (min-width: 3000px) {
     h1 {
         font-size: 200px;
     }
-    h2{
+
+    h2 {
         font-size: 100px;
     }
-    h3{
+
+    h3 {
         font-size: 80px;
     }
-    h4{
+
+    h4 {
         font-size: 70px;
     }
-    .App{
+
+    .App {
         font-size: 50px;
     }
 }
