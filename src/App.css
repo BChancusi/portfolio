@@ -2,10 +2,39 @@
   text-align: center;
 }
 
-.Projects img{
+.Grey{
+    background-color: lightgray;
+    padding: 65px 0px;
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+}
+
+.Btn {
+    background-color: #282c34;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
+.Btn:hover{
+    background-color: #171b23;
+}
+.Project-image{
     max-width: 50%;
     height: auto;
-    border: 1px solid black;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
+.Project-logo{
+    width: 100px;
+    height: auto;
+}
+
+.Logos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
 }
 .App-header {
   background-color: #282c34;

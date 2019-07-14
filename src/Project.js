@@ -5,29 +5,43 @@ function Projects() {
         <section>
             <h3>Projects</h3>
             <div className="Projects">
-                <article>
+                <article className={"Grey"}>
 
                     <h4>Distributed Budgeting System</h4>
-                    <a href="https://github.com/BChancusi/distributed">Code</a>
-                    <a href="https://distributed-budgeting.herokuapp.com/">Project</a>
-
                     <p>
-                        Web application designed to allow multiple users to input financial data
-                        concurrently leveraging branches and committing.
+                        Single page web app allowing users to manage finances using a
+                        version control system. Created for a client to resolve the issue of multiple users making
+                        changes by providing a consolidated platform.
                     </p>
                     <p>
-                        Developed using React.js, Express.js and MySQL.
+                        This project is built using React.js , with a Express.js backend for handling API requests, and
+                        runs on Heroku. MySQL provides the database solution and
+                        with HTML5 and CSS used for elements and design. Critical components are tested using Jest
+                        ensuring components function as desired.
                     </p>
 
-                    <img src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
+                    <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
+                    <div className={"Logos"}>
+                        <img className={"Project-logo"} src={"React.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"Node.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"Heroku.png"} alt="DBS Demo"/>
+
+                    </div>
+                    <div>
+                        <a className={"Btn"} href="https://github.com/BChancusi/distributed">Code</a>
+                        <a className={"Btn"} href="https://distributed-budgeting.herokuapp.com/">Project</a>
+                    </div>
+
 
                 </article>
                 <article>
-                    <h4>Social application</h4>
+                    <h4>SocialFans</h4>
 
-                    <p>Social web appliction allowing users to create posts/comment and create a paid subscription. </p>
+                    <p>Social web application allowing users to create posts/comment and create a paid subscription.</p>
                     <p>Developed using Vue.js, Firebase, HTML and CSS.</p>
-                    <p>Project managed on GitHub with contributions from group members.</p>
+                    <p>Project managed on GitHub with contributions from group members. </p>
                 </article>
                 <article>
                     <h4>SpotFX</h4>

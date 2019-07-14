@@ -19,7 +19,6 @@ function App() {
                 </div>
             </header>
             <Skills/>
-            <hr/>
             <Projects/>
         </div>
     );
