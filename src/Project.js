@@ -2,12 +2,13 @@ import React from 'react';
 
 function Projects() {
     return (
-        <section>
+        <section className={"Grey"}>
             <h3>Projects</h3>
             <div className="Projects">
                 <article className={"Grey"}>
 
                     <h4>Distributed Budgeting System</h4>
+                    <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
                     <p>
                         Single page web app allowing users to manage finances using a
                         version control system. Created for a client to resolve the issue of multiple users making
@@ -20,21 +21,17 @@ function Projects() {
                         ensuring components function as desired.
                     </p>
 
-                    <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
                     <div className={"Logos"}>
                         <img className={"Project-logo"} src={"React.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"Node.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"Heroku.png"} alt="DBS Demo"/>
-
                     </div>
                     <div>
                         <a className={"Btn"} href="https://github.com/BChancusi/distributed">Code</a>
                         <a className={"Btn"} href="https://distributed-budgeting.herokuapp.com/">Project</a>
                     </div>
-
-
                 </article>
                 <article>
                     <h4>SocialFans</h4>

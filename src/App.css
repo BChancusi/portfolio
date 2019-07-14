@@ -26,7 +26,7 @@
     box-shadow: 0px 2px 5px 1px darkgrey;
 }
 .Project-logo{
-    width: 100px;
+    width: 10vmin;
     height: auto;
 }
 
@@ -61,14 +61,22 @@
 
 }
 
-h1, h2, h3, h4, a, img {
-    margin: 5px;
-}
-
 .Projects{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+h1, h2, h3, h4, a, img{
+    margin: 5px;
+}
+
+h3, h4, a, img, p {
+    color: #282c34;
+}
+
+h4{
+    color: #337ab7;
 }
 
 
