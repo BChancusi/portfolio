@@ -21,17 +21,18 @@
 .App-links img {
     width: 6vmin;
     height: auto;
+    padding: 10px;
 }
+
 .App-links {
-    position: fixed;
+
     top: 0;
     width: 100%;
     background-color: #282c34;
 }
 
-a{
-    padding: 10px;
-
+h1, h2, h3, h4, a, img {
+    margin: 5px;
 }
 
 .Projects{
