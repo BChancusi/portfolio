@@ -27,6 +27,7 @@ function Projects() {
                         <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"Heroku.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"Jest.png"} alt="DBS Demo"/>
                     </div>
                     <div>
                         <a className={"Btn"} href="https://github.com/BChancusi/distributed">Code</a>
