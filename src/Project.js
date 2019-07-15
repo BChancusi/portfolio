@@ -5,7 +5,7 @@ function Projects() {
         <section className={"Grey"}>
             <h3>Projects</h3>
             <div className="Projects">
-                <article className={"Grey"}>
+                <article>
 
                     <h4>Distributed Budgeting System</h4>
                     <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
@@ -15,12 +15,11 @@ function Projects() {
                         changes by providing a consolidated platform.
                     </p>
                     <p>
-                        This project is built using React.js , with a Express.js backend for handling API requests, and
-                        runs on Heroku. MySQL provides the database solution and
-                        with HTML5 and CSS used for elements and design. Critical components are tested using Jest
+                        This project is built using React.js, with a Express.js backend for handling API requests,
+                        deployed onto Heroku. MySQL provides the database solution with HTML5 and CSS used for elements
+                        and design. Critical components are tested using Jest
                         ensuring components function as desired.
                     </p>
-
                     <div className={"Logos"}>
                         <img className={"Project-logo"} src={"React.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"Node.png"} alt="DBS Demo"/>

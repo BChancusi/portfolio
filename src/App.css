@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+p{
+    padding: 0 10px;
+}
+
 .Grey {
     background-color: lightgray;
     padding: 65px 0;
