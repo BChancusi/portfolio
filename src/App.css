@@ -40,7 +40,7 @@ p{
 
 .Logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     margin: 10px;
 }
