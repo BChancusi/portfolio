@@ -34,15 +34,16 @@ p{
 }
 
 .Project-logo {
-    width: 10vmin;
-    height: auto;
+    width: auto;
+    height: 5vmin;
 }
 
 .Logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 .App-header {
