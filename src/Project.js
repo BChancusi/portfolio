@@ -2,13 +2,13 @@ import React from 'react';
 
 function Projects() {
     return (
-        <section >
+        <section>
             <h3>Projects</h3>
             <div className="Projects">
                 <article className={"Grey"}>
                     <h4>Book application</h4>
                     <p>
-                        Book application designed to allow users to view, comment and favourite listed books.
+                        Book application designed to allow users to view, comment, rate and favourite listed books.
                     </p>
                     <p>
                         Authenticated user accounts through email verification improving account security.
@@ -29,7 +29,8 @@ function Projects() {
                 <article>
                     <h4>SocialFans</h4>
 
-                    <p>Social web application allowing users to create posts, comment and create a paid subscription.</p>
+                    <p>Social web application allowing users to create posts, comment and create a paid
+                        subscription.</p>
                     <p>Developed using Vue.js, Firebase, HTML and CSS.</p>
                     <p>Project managed on GitHub with contributions from group members. </p>
                 </article>
