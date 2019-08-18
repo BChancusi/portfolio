@@ -23,9 +23,7 @@ function Projects() {
                         <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
                     </div>
-                    <>
                         <a className={"Btn"} href="https://github.com/BChancusi/book-application">Code</a>
-                    </>
                 </article>
 
                 <article>
