@@ -28,7 +28,7 @@ p{
 }
 
 .Project-image {
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
     box-shadow: 0 2px 5px 1px darkgrey;
 }
@@ -84,118 +84,6 @@ h3, h4, a, img, p {
     color: #282c34;
 }
 
-h4 {
+h3 {
     color: #337ab7;
-    margin: 10px;
-}
-
-
-@media (min-width: 320px) {
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    .App {
-        font-size: 15px;
-    }
-}
-
-@media (min-width: 641px) {
-    h1 {
-        font-size: 80px;
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    .App {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1025px) {
-    h1 {
-        font-size: 100px;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-
-    .App {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1281px) {
-    h1 {
-        font-size: 100px;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    h4 {
-        font-size: 30px;
-    }
-
-    .App {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 3000px) {
-    h1 {
-        font-size: 200px;
-    }
-
-    h2 {
-        font-size: 100px;
-    }
-
-    h3 {
-        font-size: 80px;
-    }
-
-    h4 {
-        font-size: 70px;
-    }
-
-    .App {
-        font-size: 50px;
-    }
 }
