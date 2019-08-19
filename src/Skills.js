@@ -5,8 +5,16 @@ function Skills() {
         <section>
             <h2>Skills</h2>
             <article>
-                <p>Java – JavaScript – Node.js – React.js – Express.js – Jest – JUnit – MySQL – HTML – CSS
-                    – Amazon Web Services (AWS) - Test-driven development (TDD) – Agile software development
+                <p>
+                    Test-driven development (TDD) – Agile software development – Amazon Web Services (AWS)
+                </p>
+                <h3>Front-end</h3>
+                <p>
+                    JavaScript – React.js – Jest – HTML – CSS
+                </p>
+                <h3>Back-end</h3>
+                <p>
+                    Java – Node.js – Express.js – JUnit – MySQL
                 </p>
             </article>
         </section>
