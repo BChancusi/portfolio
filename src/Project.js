@@ -66,6 +66,15 @@ function Projects() {
                 </article>
 
                 <article>
+                    <h3>Portfolio</h3>
+                    <p>
+                        Personal portfolio designed using React.
+                    </p>
+                    <img className={"Project-image"} src={"project-images/portfolio.png"} alt="DBS Demo"/>
+
+                </article>
+
+                <article>
                     <h3>SpotFX</h3>
                     <p>
                         Hackathon created project with six contributors designed to visualise Spotify tracks.
