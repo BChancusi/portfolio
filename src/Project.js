@@ -18,10 +18,9 @@ function Projects() {
                         Developed using React.js, Express.js, MySQL, HTML and CSS.
                     </p>
                     <div className={"Logos"}>
-                        <img className={"Project-logo"} src={"React.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Node.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/React.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/Express.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/MySQL.png"} alt="DBS Demo"/>
                     </div>
                     <a className={"Btn"} href="https://github.com/BChancusi/book-application">Code</a>
                 </article>
@@ -43,12 +42,11 @@ function Projects() {
                     <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
 
                     <div className={"Logos"}>
-                        <img className={"Project-logo"} src={"React.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Node.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Express.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"MySQL.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Heroku.png"} alt="DBS Demo"/>
-                        <img className={"Project-logo"} src={"Jest.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/React.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/Express.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/MySQL.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/Heroku.png"} alt="DBS Demo"/>
+                        <img className={"Project-logo"} src={"logos/Jest.png"} alt="DBS Demo"/>
                     </div>
                     <div>
                         <a className={"Btn"} href="https://github.com/BChancusi/distributed">Code</a>
