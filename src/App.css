@@ -7,7 +7,7 @@ p {
 }
 
 .Grey {
-    background-color: lightgray;
+    background-color: #e5e5e5;
     padding: 65px 0;
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
