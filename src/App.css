@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-p{
+p {
     padding: 0 10px;
 }
 
@@ -91,5 +91,15 @@ h3 {
 @media only screen and (max-width: 600px) {
     .Project-image {
         max-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 }

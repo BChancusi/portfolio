@@ -66,9 +66,12 @@ function Projects() {
                 <article>
                     <h3>Portfolio</h3>
                     <p>
-                        Personal portfolio designed using React.
+                        Personal portfolio designed using React and deployed onto GitHub Pages.
                     </p>
                     <img className={"Project-image"} src={"project-images/portfolio.png"} alt="DBS Demo"/>
+                    <div className={"Logos"}>
+                        <img className={"Project-logo"} src={"logos/React.png"} alt="DBS Demo"/>
+                    </div>
                     <div>
                         <a className={"Btn"} href="https://github.com/BChancusi/portfolio">Code</a>
                     </div>
