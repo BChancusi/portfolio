@@ -22,7 +22,8 @@ function Projects() {
                         <img className={"Project-logo"} src={"logos/Express.png"} alt="DBS Demo"/>
                         <img className={"Project-logo"} src={"logos/MySQL.png"} alt="DBS Demo"/>
                     </div>
-                    <a className={"Btn"} href="https://github.com/BChancusi/book-application">Code</a>
+                    <a className={"Btn"} href="https://github.com/BChancusi/book-application" target="_blank"
+                       rel="noopener noreferrer" >Code</a>
                 </article>
 
                 <article>
@@ -49,8 +50,10 @@ function Projects() {
                         <img className={"Project-logo"} src={"logos/Jest.png"} alt="DBS Demo"/>
                     </div>
                     <div>
-                        <a className={"Btn"} href="https://github.com/BChancusi/distributed">Code</a>
-                        <a className={"Btn"} href="https://distributed-budgeting.herokuapp.com/">Project</a>
+                        <a className={"Btn"} href="https://github.com/BChancusi/distributed"
+                           target="_blank" rel="noopener noreferrer" >Code</a>
+                        <a className={"Btn"} href="https://distributed-budgeting.herokuapp.com/"
+                           target="_blank" rel="noopener noreferrer" >Project</a>
                     </div>
                 </article>
 
@@ -73,7 +76,8 @@ function Projects() {
                         <img className={"Project-logo"} src={"logos/React.png"} alt="DBS Demo"/>
                     </div>
                     <div>
-                        <a className={"Btn"} href="https://github.com/BChancusi/portfolio">Code</a>
+                        <a className={"Btn"} href="https://github.com/BChancusi/portfolio" target="_blank"
+                           rel="noopener noreferrer">Code</a>
                     </div>
 
                 </article>

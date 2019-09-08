@@ -10,10 +10,11 @@ function App() {
                 <h1>Brandon Chancusi</h1>
                 <h2>brandonchancusi@gmail.com</h2>
                 <div className={"App-links"}>
-                    <a href="https://github.com/BChancusi">
+                    <a href="https://github.com/BChancusi"  target="_blank" rel="noopener noreferrer">
                         <img src={"logos/GitHub.png"} alt="GitHub" title={"GitHub"}/>
                     </a>
-                    <a href="https://www.linkedin.com/in/brandon-chancusi-217559172">
+                    <a href="https://www.linkedin.com/in/brandon-chancusi-217559172"  target="_blank"
+                       rel="noopener noreferrer">
                         <img src={"logos/LinkedIn.png"} alt="LinkedIn" title={"LinkedIn"}/>
                     </a>
                 </div>
