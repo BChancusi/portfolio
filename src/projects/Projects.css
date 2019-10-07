@@ -1,0 +1,17 @@
+.Projects-grey {
+    background-color: lightgray;
+    padding: 65px 0;
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+}
+
+.Projects-image {
+    max-width: 25%;
+    height: auto;
+    box-shadow: 0 2px 5px 1px darkgrey;
+}
+
+.Projects-logo {
+    width: auto;
+    height: 5vmin;
+    margin: 10px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
+import "./Projects.css"
 
-function Projects(props) {
+function Projects() {
 
     const projects =
         [
@@ -19,9 +20,9 @@ function Projects(props) {
                     Developed using React.js, Node.js, Express.js MySQL, HTML and CSS.
                 </p>
                 <div className={"Logos"}>
-                    <img className={"Project-logo"} src={"logos/React.png"} alt="React Logo"/>
-                    <img className={"Project-logo"} src={"logos/NodeJS.png"} alt="Node.js Logo"/>
-                    <img className={"Project-logo"} src={"logos/MySQL.png"} alt="MySQL Logo"/>
+                    <img className={"Projects-logo"} src={"logos/React.png"} alt="React Logo"/>
+                    <img className={"Projects-logo"} src={"logos/NodeJS.png"} alt="Node.js Logo"/>
+                    <img className={"Projects-logo"} src={"logos/MySQL.png"} alt="MySQL Logo"/>
                 </div>
                 <a className={"Btn"} href="https://github.com/BChancusi/book-application" target="_blank"
                    rel="noopener noreferrer">Code</a>
@@ -40,14 +41,14 @@ function Projects(props) {
                     ensuring components function as desired.
                 </p>
 
-                <img className={"Project-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
+                <img className={"Projects-image"} src="https://i.imgur.com/8qfyiT0.png" alt="DBS Demo"/>
 
                 <div className={"Logos"}>
-                    <img className={"Project-logo"} src={"logos/React.png"} alt="React Logo"/>
-                    <img className={"Project-logo"} src={"logos/NodeJS.png"} alt="NodeJS Logo"/>
-                    <img className={"Project-logo"} src={"logos/MySQL.png"} alt="MySQL Logo"/>
-                    <img className={"Project-logo"} src={"logos/Heroku.png"} alt="Heroku Logo"/>
-                    <img className={"Project-logo"} src={"logos/Jest.png"} alt="Jest Logo"/>
+                    <img className={"Projects-logo"} src={"logos/React.png"} alt="React Logo"/>
+                    <img className={"Projects-logo"} src={"logos/NodeJS.png"} alt="NodeJS Logo"/>
+                    <img className={"Projects-logo"} src={"logos/MySQL.png"} alt="MySQL Logo"/>
+                    <img className={"Projects-logo"} src={"logos/Heroku.png"} alt="Heroku Logo"/>
+                    <img className={"Projects-logo"} src={"logos/Jest.png"} alt="Jest Logo"/>
                 </div>
                 <div>
                     <a className={"Btn"} href="https://github.com/BChancusi/distributed"
@@ -69,9 +70,9 @@ function Projects(props) {
                 <p>
                     Personal portfolio designed using React and deployed onto GitHub Pages.
                 </p>
-                <img className={"Project-image"} src={"project-images/portfolio.png"} alt="Portfolio Demo"/>
+                <img className={"Projects-image"} src={"project-images/portfolio.png"} alt="Portfolio Demo"/>
                 <div className={"Logos"}>
-                    <img className={"Project-logo"} src={"logos/React.png"} alt="React Logo"/>
+                    <img className={"Projects-logo"} src={"logos/React.png"} alt="React Logo"/>
                 </div>
                 <div>
                     <a className={"Btn"} href="https://github.com/BChancusi/portfolio" target="_blank"

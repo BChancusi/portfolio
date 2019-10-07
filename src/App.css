@@ -12,11 +12,6 @@ h1{
 h2{
     font-size: calc(16px + 1vw);
 }
-.Grey {
-    background-color: #e5e5e5;
-    padding: 65px 0;
-    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-}
 
 .Btn {
     background-color: #282c34;
@@ -31,18 +26,6 @@ h2{
 
 .Btn:hover {
     background-color: #171b23;
-}
-
-.Project-image {
-    max-width: 25%;
-    height: auto;
-    box-shadow: 0 2px 5px 1px darkgrey;
-}
-
-.Project-logo {
-    width: auto;
-    height: 5vmin;
-    margin: 10px;
 }
 
 .Logos {
@@ -76,11 +59,6 @@ h2{
     color: #61dafb;
 }
 
-.Projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 h1, h2, h3, h4, a, img {
     margin: 5px;
