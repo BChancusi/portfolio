@@ -100,12 +100,12 @@ function Projects() {
                 {
                     projects.map((project, index) => {
                         if(index % 2 === 0){
-                            return <article className={"Projects-grey"}>
+                            return <article key={index} className={"Projects-grey"}>
                                 {project}
                             </article>
                         }
                         else{
-                            return <article>
+                            return <article key={index}>
                                 {project}
                             </article>
                         }
