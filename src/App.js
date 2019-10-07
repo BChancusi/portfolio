@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Projects from './project/Project';
+import Projects from './projects/Projects';
 import Skills from './Skills';
 
 function App() {

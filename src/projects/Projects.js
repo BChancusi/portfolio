@@ -96,6 +96,20 @@ function Projects(props) {
         <section>
             <h2>Projects</h2>
             <div className="Projects">
+                {
+                    projects.map((project, index) => {
+                        if(index % 2 === 0){
+                            return <article className={"Projects-grey"}>
+                                {project}
+                            </article>
+                        }
+                        else{
+                            return <article>
+                                {project}
+                            </article>
+                        }
+                    })
+                }
             </div>
         </section>);
 }
